@@ -1,7 +1,7 @@
 <div align=center>
 <img src="assets/UR_Git_Logo_banner.png", height=130>
 <h1>ROS2 Vision Node</h1>
-A docker service containing ROS2 packages for image preprocessing, neural network inference, and visual-inertial SLAM.
+A docker service containing ROS2 packages for isaac ros apriltag.
 </div>
 
 ## Dependencies
