@@ -1,0 +1,12 @@
+*.zip
+*.tar
+*.tar.gz
+*.pt
+*.onnx
+*.plan
+*.log
+.vscode
+models/*
+images/*
+src/ros2_ws/log
+
