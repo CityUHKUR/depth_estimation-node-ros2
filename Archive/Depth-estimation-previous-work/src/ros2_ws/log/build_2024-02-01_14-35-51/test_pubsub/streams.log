@@ -1,0 +1,30 @@
+[0.310s] Invoking command in '/src/ros2_ws/src/test_pubsub': PYTHONPATH=/src/ros2_ws/build/test_pubsub/prefix_override:/src/ros2_ws/install/test_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_pubsub build --build-base /src/ros2_ws/build/test_pubsub/build install --record /src/ros2_ws/build/test_pubsub/install.log --single-version-externally-managed
+[0.404s] running egg_info
+[0.405s] writing ../../build/test_pubsub/test_pubsub.egg-info/PKG-INFO
+[0.405s] writing dependency_links to ../../build/test_pubsub/test_pubsub.egg-info/dependency_links.txt
+[0.406s] writing entry points to ../../build/test_pubsub/test_pubsub.egg-info/entry_points.txt
+[0.407s] writing requirements to ../../build/test_pubsub/test_pubsub.egg-info/requires.txt
+[0.407s] writing top-level names to ../../build/test_pubsub/test_pubsub.egg-info/top_level.txt
+[0.410s] reading manifest file '../../build/test_pubsub/test_pubsub.egg-info/SOURCES.txt'
+[0.411s] writing manifest file '../../build/test_pubsub/test_pubsub.egg-info/SOURCES.txt'
+[0.412s] running build
+[0.412s] running build_py
+[0.413s] copying test_pubsub/subscriber.py -> /src/ros2_ws/build/test_pubsub/build/lib/test_pubsub
+[0.413s] copying test_pubsub/publisher.py -> /src/ros2_ws/build/test_pubsub/build/lib/test_pubsub
+[0.414s] running install
+[0.415s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.416s]   warnings.warn(
+[0.416s] running install_lib
+[0.417s] copying /src/ros2_ws/build/test_pubsub/build/lib/test_pubsub/subscriber.py -> /src/ros2_ws/install/test_pubsub/lib/python3.10/site-packages/test_pubsub
+[0.417s] copying /src/ros2_ws/build/test_pubsub/build/lib/test_pubsub/publisher.py -> /src/ros2_ws/install/test_pubsub/lib/python3.10/site-packages/test_pubsub
+[0.419s] byte-compiling /src/ros2_ws/install/test_pubsub/lib/python3.10/site-packages/test_pubsub/subscriber.py to subscriber.cpython-310.pyc
+[0.420s] byte-compiling /src/ros2_ws/install/test_pubsub/lib/python3.10/site-packages/test_pubsub/publisher.py to publisher.cpython-310.pyc
+[0.421s] running install_data
+[0.422s] running install_egg_info
+[0.423s] removing '/src/ros2_ws/install/test_pubsub/lib/python3.10/site-packages/test_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[0.426s] Copying ../../build/test_pubsub/test_pubsub.egg-info to /src/ros2_ws/install/test_pubsub/lib/python3.10/site-packages/test_pubsub-0.0.0-py3.10.egg-info
+[0.434s] running install_scripts
+[0.446s] Installing publisher script to /src/ros2_ws/install/test_pubsub/lib/test_pubsub
+[0.446s] Installing subscriber script to /src/ros2_ws/install/test_pubsub/lib/test_pubsub
+[0.448s] writing list of installed files to '/src/ros2_ws/build/test_pubsub/install.log'
+[0.461s] Invoked command in '/src/ros2_ws/src/test_pubsub' returned '0': PYTHONPATH=/src/ros2_ws/build/test_pubsub/prefix_override:/src/ros2_ws/install/test_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_pubsub build --build-base /src/ros2_ws/build/test_pubsub/build install --record /src/ros2_ws/build/test_pubsub/install.log --single-version-externally-managed
