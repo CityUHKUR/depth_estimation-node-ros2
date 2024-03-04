@@ -15,24 +15,30 @@ class MinimalSubscriber(Node):
 
     def listener_callback(self, msg):
 
-        # Assuming the pressure at the surface is 101325 Pa
-        surface_pressure = 101325 # Pa
+        # Check if the 'fluid_pressure' field exists in the message
+        if hasattr(msg, 'fluid_pressure'):
 
-        # Fluid density for water
-        fluid_density = 1025 # kg/m³
-        # Acceleration due to gravity
-        gravity = 9.81 # m/s²
+            # Assuming the pressure at the surface is 101325 Pa
+            surface_pressure = 101325  # Pa
 
-        # Calculate the depth
-        depth = (msg.fluid_pressure - surface_pressure) / (fluid_density * gravity)
+            # Fluid density for water
+            fluid_density = 1025  # kg/m³
 
-        # Ensure the depth is within the pool's maximum depth
-        max_depth = 2 # meters
-        if depth > max_depth:
-            depth = max_depth
+            # Acceleration due to gravity
+            gravity = 9.81  # m/s²
 
-            
-        self.get_logger().info(f'Calculated Depth: {depth} meters')
+            # Calculate the depth
+            depth = (msg.fluid_pressure - surface_pressure) / (fluid_density * gravity)
+
+            # Ensure the depth is within the pool's maximum depth
+            max_depth = 2  # meters
+            if depth > max_depth:
+                depth = max_depth
+    
+            self.get_logger().info(f'Calculated Depth: {depth} meters')
+
+        else:
+            self.get_logger().warn('The message does not contain a fluid_pressure field')
 
 def main(args=None):
     
