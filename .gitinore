@@ -1,0 +1,4 @@
+bin
+docker/docker
+.DS_Store
+*.test
