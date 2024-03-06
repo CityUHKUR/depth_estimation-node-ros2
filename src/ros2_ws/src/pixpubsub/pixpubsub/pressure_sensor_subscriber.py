@@ -34,6 +34,7 @@ class MinimalSubscriber(Node):
 
             # Calculate the depth
             depth = (msg.fluid_pressure - surface_pressure) / (fluid_density * gravity)
+            # depth = (msg.fluid_pressure) / (fluid_density * gravity)
 
             # Ensure the depth is within the pool's maximum depth
             if depth > max_depth:
