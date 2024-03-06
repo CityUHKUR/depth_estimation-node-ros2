@@ -3,7 +3,6 @@ from rclpy.node import Node
 from sensor_msgs.msg import FluidPressure
 
 class MinimalSubscriber(Node):
-
     def __init__(self):
         super().__init__('minimal_subscriber')
         self.subscription = self.create_subscription(
@@ -13,41 +12,42 @@ class MinimalSubscriber(Node):
             10)
         self.subscription # prevent unused variable warning
 
-    def listener_callback(self, msg):
+        # Initialize configurable parameters
+        self.initialize_parameters()
 
+    def initialize_parameters(self):
+        # Configurable parameters
+        self.declare_parameter("surface_pressure", 101325) # Pa
+        self.declare_parameter("fluid_density", 1025) # kg/m³
+        self.declare_parameter("gravity", 9.81) # m/s²
+        self.declare_parameter("max_depth", 2) # meters
+
+    def listener_callback(self, msg):
         # Check if the 'fluid_pressure' field exists in the message
         if hasattr(msg, 'fluid_pressure'):
 
-            # Assuming the pressure at the surface is 101325 Pa
-            surface_pressure = 101325  # Pa
-
-            # Fluid density for water
-            fluid_density = 1025  # kg/m³
-
-            # Acceleration due to gravity
-            gravity = 9.81  # m/s²
+            # Get the configurable parameters
+            surface_pressure = self.get_parameter("surface_pressure").value
+            fluid_density = self.get_parameter("fluid_density").value
+            gravity = self.get_parameter("gravity").value
+            max_depth = self.get_parameter("max_depth").value
 
             # Calculate the depth
             depth = (msg.fluid_pressure - surface_pressure) / (fluid_density * gravity)
 
             # Ensure the depth is within the pool's maximum depth
-            max_depth = 2  # meters
             if depth > max_depth:
                 depth = max_depth
-    
             self.get_logger().info(f'Calculated Depth: {depth} meters')
 
         else:
             self.get_logger().warn('The message does not contain a fluid_pressure field')
 
 def main(args=None):
-    
+
     rclpy.init(args=args)
-
     minimal_subscriber = MinimalSubscriber()
-
     rclpy.spin(minimal_subscriber)
-
     minimal_subscriber.destroy_node()
     rclpy.shutdown()
 
