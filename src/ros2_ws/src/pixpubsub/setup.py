@@ -15,13 +15,15 @@ setup(
     zip_safe=True,
     maintainer='root',
     maintainer_email='root@todo.todo',
-    description='TODO: Package description',
+    description='Depth publisher/subscriber using rclpy',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             "pixhawk_worker = pixpubsub.pix_pubsub_node:main",
-            "testing_node = pixpubsub.testing_node:main"           
+            "testing_node = pixpubsub.testing_node:main",
+            "Depth_node = pixpubsub.pressure_sensor_subscriber:main",
+
         ],
     },
 )
