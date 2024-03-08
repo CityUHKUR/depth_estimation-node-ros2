@@ -1,0 +1,4 @@
+[0.343s] Invoking command in '/src/ros2_ws/build/pioneer_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/src/ros2_ws/install/pixpubsub:/src/ros2_ws/install/imu_publisher:/opt/ros/humble /usr/bin/cmake --build /src/ros2_ws/build/pioneer_msgs -- -j6 -l6
+[0.388s] No such file or directory
+[0.389s] [0mCMake Error: Generator: execution of make failed. Make command was: /usr/bin/gmake -f Makefile -j6 -l6 && [0m
+[1.341s] Invoked command in '/src/ros2_ws/build/pioneer_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/src/ros2_ws/install/pixpubsub:/src/ros2_ws/install/imu_publisher:/opt/ros/humble /usr/bin/cmake --build /src/ros2_ws/build/pioneer_msgs -- -j6 -l6

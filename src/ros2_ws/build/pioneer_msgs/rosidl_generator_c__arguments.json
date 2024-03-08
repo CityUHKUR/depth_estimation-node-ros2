@@ -72,7 +72,7 @@
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
-    "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/python3.8/site-packages/rosidl_generator_c/__init__.py",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",

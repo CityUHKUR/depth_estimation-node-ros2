@@ -70,7 +70,7 @@ include CMakeFiles/pioneer_msgs__rosidl_generator_c.dir/progress.make
 include CMakeFiles/pioneer_msgs__rosidl_generator_c.dir/flags.make
 
 rosidl_generator_c/pioneer_msgs/msg/motion_command.h: /opt/ros/humble/lib/rosidl_generator_c/rosidl_generator_c
-rosidl_generator_c/pioneer_msgs/msg/motion_command.h: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py
+rosidl_generator_c/pioneer_msgs/msg/motion_command.h: /opt/ros/humble/lib/python3.8/site-packages/rosidl_generator_c/__init__.py
 rosidl_generator_c/pioneer_msgs/msg/motion_command.h: /opt/ros/humble/share/rosidl_generator_c/resource/action__type_support.h.em
 rosidl_generator_c/pioneer_msgs/msg/motion_command.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl.h.em
 rosidl_generator_c/pioneer_msgs/msg/motion_command.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__functions.c.em
@@ -147,7 +147,7 @@ rosidl_generator_c/pioneer_msgs/msg/motion_command.h: /opt/ros/humble/share/geom
 rosidl_generator_c/pioneer_msgs/msg/motion_command.h: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_c/pioneer_msgs/msg/motion_command.h: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/src/ros2_ws/build/pioneer_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /src/ros2_ws/build/pioneer_msgs/rosidl_generator_c__arguments.json
+	/usr/bin/python3.8 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /src/ros2_ws/build/pioneer_msgs/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/pioneer_msgs/msg/detail/motion_command__functions.h: rosidl_generator_c/pioneer_msgs/msg/motion_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pioneer_msgs/msg/detail/motion_command__functions.h

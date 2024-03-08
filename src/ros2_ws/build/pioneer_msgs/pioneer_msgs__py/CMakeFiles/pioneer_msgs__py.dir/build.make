@@ -78,8 +78,8 @@ pioneer_msgs__py/CMakeFiles/pioneer_msgs__py: rosidl_generator_py/pioneer_msgs/m
 pioneer_msgs__py/CMakeFiles/pioneer_msgs__py: rosidl_generator_py/pioneer_msgs/msg/_auv_state_s.c
 
 rosidl_generator_py/pioneer_msgs/_pioneer_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
-rosidl_generator_py/pioneer_msgs/_pioneer_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
-rosidl_generator_py/pioneer_msgs/_pioneer_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py
+rosidl_generator_py/pioneer_msgs/_pioneer_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/python3.8/site-packages/rosidl_generator_py/__init__.py
+rosidl_generator_py/pioneer_msgs/_pioneer_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/python3.8/site-packages/rosidl_generator_py/generate_py_impl.py
 rosidl_generator_py/pioneer_msgs/_pioneer_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_action_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/pioneer_msgs/_pioneer_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_action.py.em
 rosidl_generator_py/pioneer_msgs/_pioneer_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_idl_pkg_typesupport_entry_point.c.em

@@ -5,6 +5,7 @@ from sensor_msgs.msg import FluidPressure
 class MinimalSubscriber(Node):
     def __init__(self):
         super().__init__('minimal_subscriber')
+        self.get_logger().info("Starting depth node")
         self.subscription = self.create_subscription(
             FluidPressure,
             'sensor_data',
@@ -37,6 +38,7 @@ class MinimalSubscriber(Node):
         return depth
 
     def listener_callback(self, msg):
+        self.get_logger().info("I heard msg {}".format(msg))
         # Check if the 'fluid_pressure' field exists in the message
         if hasattr(msg, 'fluid_pressure'):
             depth = self.calculate_depth(msg.fluid_pressure)

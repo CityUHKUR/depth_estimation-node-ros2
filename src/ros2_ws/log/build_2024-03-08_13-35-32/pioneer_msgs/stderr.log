@@ -1,0 +1,2 @@
+No such file or directory
+[0mCMake Error: Generator: execution of make failed. Make command was: /usr/bin/gmake -f Makefile -j6 -l6 && [0m

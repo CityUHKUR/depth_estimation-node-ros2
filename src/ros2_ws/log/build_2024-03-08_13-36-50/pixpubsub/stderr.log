@@ -1,0 +1,5 @@
+  File "/src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages/pixpubsub/testing_node.py", line 29
+    match count:
+          ^
+SyntaxError: invalid syntax
+
