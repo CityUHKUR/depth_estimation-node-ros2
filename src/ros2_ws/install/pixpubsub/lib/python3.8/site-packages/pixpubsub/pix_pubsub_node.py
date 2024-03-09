@@ -10,6 +10,8 @@ class PixhawkModule(Node):
 
     def __init__(self):
         super().__init__('pixhawk_module')
+        
+        self.declare_parameter('mode_param','ALT_HOLD')
         # init movtion command list as a dictionary
         # each key corresponds to a list of commands recieved from a specific node
         self.command_bank = {
@@ -112,7 +114,16 @@ class PixhawkModule(Node):
                                                             10, 1)  # Adjust rate as needed
             self.__status = True
             print("Connected to Pixhawk!")
-            self.modeSetFunc(mode='ALT_HOLD')
+            mode_in = self.get_parameter('mode_param').get_parameter_value().string_value
+            # self.modeSetFunc(mode=mode_in)
+            new_mode_param = rclpy.parameter.Parameter(
+                'mode_param',
+                rclpy.Parameter.Type.STRING,
+                'ALT_HOLD'
+            )
+            all_new_parameters = [new_mode_param]
+            self.set_parameters(all_new_parameters)
+            self.modeSetFunc(mode=mode_in)
             self.armFunc()
         except Exception as e:
             self.get_logger().error('Failed to connect to Pixhawk: {}'.format(e))

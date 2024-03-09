@@ -1,0 +1,26 @@
+[2.710s] Invoking command in '/src/ros2_ws/src/pixpubsub': LD_LIBRARY_PATH=/src/ros2_ws/install/pioneer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/src/ros2_ws/build/pixpubsub/prefix_override:/src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages:/src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages:/src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages:/src/ros2_ws/install/imu_publisher/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/pixpubsub build --build-base /src/ros2_ws/build/pixpubsub/build install --record /src/ros2_ws/build/pixpubsub/install.log --single-version-externally-managed
+[3.568s] running egg_info
+[3.601s] writing ../../build/pixpubsub/pixpubsub.egg-info/PKG-INFO
+[3.602s] writing dependency_links to ../../build/pixpubsub/pixpubsub.egg-info/dependency_links.txt
+[3.602s] writing entry points to ../../build/pixpubsub/pixpubsub.egg-info/entry_points.txt
+[3.603s] writing requirements to ../../build/pixpubsub/pixpubsub.egg-info/requires.txt
+[3.603s] writing top-level names to ../../build/pixpubsub/pixpubsub.egg-info/top_level.txt
+[3.668s] reading manifest file '../../build/pixpubsub/pixpubsub.egg-info/SOURCES.txt'
+[3.670s] writing manifest file '../../build/pixpubsub/pixpubsub.egg-info/SOURCES.txt'
+[3.670s] running build
+[3.671s] running build_py
+[3.671s] copying pixpubsub/pix_pubsub_node.py -> /src/ros2_ws/build/pixpubsub/build/lib/pixpubsub
+[3.672s] running install
+[3.683s] running install_lib
+[3.715s] copying /src/ros2_ws/build/pixpubsub/build/lib/pixpubsub/pix_pubsub_node.py -> /src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages/pixpubsub
+[3.716s] byte-compiling /src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages/pixpubsub/pix_pubsub_node.py to pix_pubsub_node.cpython-38.pyc
+[3.719s] running install_data
+[3.750s] running install_egg_info
+[3.808s] removing '/src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages/pixpubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[3.808s] Copying ../../build/pixpubsub/pixpubsub.egg-info to /src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages/pixpubsub-0.0.0-py3.8.egg-info
+[3.811s] running install_scripts
+[3.941s] Installing Depth_node script to /src/ros2_ws/install/pixpubsub/lib/pixpubsub
+[3.941s] Installing pixhawk_worker script to /src/ros2_ws/install/pixpubsub/lib/pixpubsub
+[3.942s] Installing testing_node script to /src/ros2_ws/install/pixpubsub/lib/pixpubsub
+[3.943s] writing list of installed files to '/src/ros2_ws/build/pixpubsub/install.log'
+[4.049s] Invoked command in '/src/ros2_ws/src/pixpubsub' returned '0': LD_LIBRARY_PATH=/src/ros2_ws/install/pioneer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/src/ros2_ws/build/pixpubsub/prefix_override:/src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages:/src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages:/src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages:/src/ros2_ws/install/imu_publisher/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/pixpubsub build --build-base /src/ros2_ws/build/pixpubsub/build install --record /src/ros2_ws/build/pixpubsub/install.log --single-version-externally-managed
