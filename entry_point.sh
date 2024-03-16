@@ -17,6 +17,5 @@ source /src/ros2_ws/install/setup.bash
 echo "alias bws='/scripts/build_ws.sh'" >> ~/.bashrc
 echo "alias sws='/scripts/source_ws.sh'" >> ~/.bashrc
 echo "Setup finished."
-ros2 run pixpubsub pixhawk_worker
 ros2 run pixpubsub Depth_node
 /bin/bash
