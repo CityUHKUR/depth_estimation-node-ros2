@@ -38,12 +38,15 @@ class MinimalSubscriber(Node):
     def listener_callback(self, msg):
         self.get_logger().info("I heard msg {}".format(msg))
         # Check if the 'fluid_pressure' field exists in the message
-        if hasattr(msg, 'fluid_pressure'):
-            depth = self.calculate_depth(msg.fluid_pressure)
-            self.get_logger().info(f'Calculated Depth: {depth} meters')
-        else:
-            self.get_logger().info('The message does not contain a fluid_pressure field')
-
+        try:
+            if hasattr(msg, 'fluid_pressure'):
+                depth = self.calculate_depth(msg.fluid_pressure)
+                self.get_logger().info(f'Calculated Depth: {depth} meters')
+            else:
+                self.get_logger().info('The message does not contain a fluid_pressure field')
+        except:
+            self.get_logger().warn("fuck")
+            pass
 def main(args=None):
     rclpy.init(args=args)
     minimal_subscriber = MinimalSubscriber()
