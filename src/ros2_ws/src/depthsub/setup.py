@@ -14,12 +14,13 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='root',
-    maintainer_email='raydenhui040820@gmail.com',
+    maintainer_email='example@gmail.com',
     description='TODO: Package description',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "Depth_node = depthsub.pressure_sensor_subscriber:main",
         ],
     },
 )
