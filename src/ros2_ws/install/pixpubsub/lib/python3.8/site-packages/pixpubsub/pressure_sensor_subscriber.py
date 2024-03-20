@@ -5,7 +5,6 @@ from sensor_msgs.msg import FluidPressure
 class MinimalSubscriber(Node):
     def __init__(self):
         super().__init__('minimal_subscriber')
-        print("hello world")
         self.get_logger().info("Starting depth node")
         self.subscription = self.create_subscription(
             FluidPressure,
@@ -39,12 +38,15 @@ class MinimalSubscriber(Node):
     def listener_callback(self, msg):
         self.get_logger().info("I heard msg {}".format(msg))
         # Check if the 'fluid_pressure' field exists in the message
-        if hasattr(msg, 'fluid_pressure'):
-            depth = self.calculate_depth(msg.fluid_pressure)
-            self.get_logger().info(f'Calculated Depth: {depth} meters')
-        else:
-            self.get_logger().info('The message does not contain a fluid_pressure field')
-
+        try:
+            if hasattr(msg, 'fluid_pressure'):
+                depth = self.calculate_depth(msg.fluid_pressure)
+                self.get_logger().info(f'Calculated Depth: {depth} meters')
+            else:
+                self.get_logger().info('The message does not contain a fluid_pressure field')
+        except:
+            self.get_logger().warn("fuck")
+            pass
 def main(args=None):
     rclpy.init(args=args)
     minimal_subscriber = MinimalSubscriber()

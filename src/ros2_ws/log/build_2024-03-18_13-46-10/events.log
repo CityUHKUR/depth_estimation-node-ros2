@@ -1,0 +1,307 @@
+[0.000000] (-) TimerEvent: {}
+[0.000682] (imu_publisher) JobQueued: {'identifier': 'imu_publisher', 'dependencies': OrderedDict()}
+[0.001376] (pioneer_msgs) JobQueued: {'identifier': 'pioneer_msgs', 'dependencies': OrderedDict()}
+[0.001712] (pixpubsub) JobQueued: {'identifier': 'pixpubsub', 'dependencies': OrderedDict([('pioneer_msgs', '/src/ros2_ws/install/pioneer_msgs')])}
+[0.001879] (pioneer_msgs) JobStarted: {'identifier': 'pioneer_msgs'}
+[0.099353] (-) TimerEvent: {}
+[0.130569] (imu_publisher) JobStarted: {'identifier': 'imu_publisher'}
+[0.199626] (-) TimerEvent: {}
+[0.291600] (pioneer_msgs) JobProgress: {'identifier': 'pioneer_msgs', 'progress': 'cmake'}
+[0.293483] (pioneer_msgs) JobProgress: {'identifier': 'pioneer_msgs', 'progress': 'build'}
+[0.294834] (pioneer_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/src/ros2_ws/build/pioneer_msgs', '--', '-j6', '-l6'], 'cwd': '/src/ros2_ws/build/pioneer_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources'), ('HOSTNAME', 'urorinnanoalpha'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/src/ros2_ws/install/pioneer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64::/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib'), ('HOME', '/root'), ('OLDPWD', '/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/src/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvidia/tao:/usr/local/cuda/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/rtps_udp_profile.xml'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/src/ros2_ws/install/pixpubsub:/src/ros2_ws/install/pioneer_msgs:/src/ros2_ws/install/imu_publisher:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/src/ros2_ws/build/pioneer_msgs'), ('PYTHONPATH', '/src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages:/src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages:/src/ros2_ws/install/imu_publisher/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/src/ros2_ws/install/pioneer_msgs:/src/ros2_ws/install/pixpubsub:/src/ros2_ws/install/imu_publisher:/opt/ros/humble')]), 'shell': False}
+[0.300198] (-) TimerEvent: {}
+[0.409123] (pioneer_msgs) StdoutLine: {'line': b'[  2%] Built target pioneer_msgs__cpp\n'}
+[0.409965] (-) TimerEvent: {}
+[0.422492] (pioneer_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_pioneer_msgs\n'}
+[0.441964] (pioneer_msgs) StdoutLine: {'line': b'[ 12%] Built target pioneer_msgs__rosidl_generator_c\n'}
+[0.460208] (pioneer_msgs) StdoutLine: {'line': b'[ 23%] Built target pioneer_msgs__rosidl_typesupport_cpp\n'}
+[0.464484] (pioneer_msgs) StdoutLine: {'line': b'[ 34%] Built target pioneer_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.476768] (pioneer_msgs) StdoutLine: {'line': b'[ 44%] Built target pioneer_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.489428] (pioneer_msgs) StdoutLine: {'line': b'[ 55%] Built target pioneer_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.494672] (pioneer_msgs) StdoutLine: {'line': b'[ 65%] Built target pioneer_msgs__rosidl_typesupport_introspection_c\n'}
+[0.498891] (pioneer_msgs) StdoutLine: {'line': b'[ 76%] Built target pioneer_msgs__rosidl_typesupport_c\n'}
+[0.510139] (-) TimerEvent: {}
+[0.526596] (pioneer_msgs) StdoutLine: {'line': b'[ 76%] Built target pioneer_msgs\n'}
+[0.553968] (pioneer_msgs) StdoutLine: {'line': b'[ 78%] Built target pioneer_msgs__py\n'}
+[0.588310] (pioneer_msgs) StdoutLine: {'line': b'[ 87%] Built target pioneer_msgs__rosidl_generator_py\n'}
+[0.610309] (-) TimerEvent: {}
+[0.621101] (pioneer_msgs) StdoutLine: {'line': b'[ 91%] Built target pioneer_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.622817] (pioneer_msgs) StdoutLine: {'line': b'[ 95%] Built target pioneer_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.623670] (pioneer_msgs) StdoutLine: {'line': b'[100%] Built target pioneer_msgs__rosidl_typesupport_c__pyext\n'}
+[0.710462] (-) TimerEvent: {}
+[0.811189] (-) TimerEvent: {}
+[0.911827] (-) TimerEvent: {}
+[1.012455] (-) TimerEvent: {}
+[1.113155] (-) TimerEvent: {}
+[1.226024] (-) TimerEvent: {}
+[1.242090] (pioneer_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.276394] (pioneer_msgs) StdoutLine: {'line': b'writing pioneer_msgs.egg-info/PKG-INFO\n'}
+[1.277019] (pioneer_msgs) StdoutLine: {'line': b'writing dependency_links to pioneer_msgs.egg-info/dependency_links.txt\n'}
+[1.278010] (pioneer_msgs) StdoutLine: {'line': b'writing top-level names to pioneer_msgs.egg-info/top_level.txt\n'}
+[1.326236] (-) TimerEvent: {}
+[1.372916] (pioneer_msgs) StdoutLine: {'line': b"reading manifest file 'pioneer_msgs.egg-info/SOURCES.txt'\n"}
+[1.374060] (pioneer_msgs) StdoutLine: {'line': b"writing manifest file 'pioneer_msgs.egg-info/SOURCES.txt'\n"}
+[1.426386] (-) TimerEvent: {}
+[1.477105] (pioneer_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_pioneer_msgs_egg\n'}
+[1.491052] (pioneer_msgs) CommandEnded: {'returncode': 0}
+[1.526573] (-) TimerEvent: {}
+[1.627638] (-) TimerEvent: {}
+[1.722821] (pioneer_msgs) JobProgress: {'identifier': 'pioneer_msgs', 'progress': 'install'}
+[1.727826] (-) TimerEvent: {}
+[1.735670] (pioneer_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/src/ros2_ws/build/pioneer_msgs'], 'cwd': '/src/ros2_ws/build/pioneer_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources'), ('HOSTNAME', 'urorinnanoalpha'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/src/ros2_ws/install/pioneer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64::/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib'), ('HOME', '/root'), ('OLDPWD', '/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/src/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvidia/tao:/usr/local/cuda/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/rtps_udp_profile.xml'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/src/ros2_ws/install/pixpubsub:/src/ros2_ws/install/pioneer_msgs:/src/ros2_ws/install/imu_publisher:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/src/ros2_ws/build/pioneer_msgs'), ('PYTHONPATH', '/src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages:/src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages:/src/ros2_ws/install/imu_publisher/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/src/ros2_ws/install/pioneer_msgs:/src/ros2_ws/install/pixpubsub:/src/ros2_ws/install/imu_publisher:/opt/ros/humble')]), 'shell': False}
+[1.749558] (pioneer_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.750247] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/ament_index/resource_index/rosidl_interfaces/pioneer_msgs\n'}
+[1.750644] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs\n'}
+[1.750984] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg\n'}
+[1.751298] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/status.h\n'}
+[1.751550] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail\n'}
+[1.751728] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/motion_command__functions.h\n'}
+[1.751888] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/auv_state__functions.c\n'}
+[1.752110] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/status__struct.h\n'}
+[1.752298] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/status__functions.c\n'}
+[1.752566] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/auv_state__functions.h\n'}
+[1.752814] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/motion_command__struct.h\n'}
+[1.753023] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/motion_command__type_support.h\n'}
+[1.753241] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/status__functions.h\n'}
+[1.753437] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/status__type_support.h\n'}
+[1.753655] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/auv_state__struct.h\n'}
+[1.753825] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/auv_state__type_support.h\n'}
+[1.754009] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/motion_command__functions.c\n'}
+[1.754163] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/motion_command.h\n'}
+[1.754331] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.754504] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/auv_state.h\n'}
+[1.754672] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/environment/library_path.sh\n'}
+[1.754997] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/environment/library_path.dsv\n'}
+[1.755225] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/libpioneer_msgs__rosidl_generator_c.so\n'}
+[1.755386] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs\n'}
+[1.755589] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg\n'}
+[1.755825] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.756741] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail\n'}
+[1.757220] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.757459] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/auv_state__rosidl_typesupport_fastrtps_c.h\n'}
+[1.757640] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/motion_command__rosidl_typesupport_fastrtps_c.h\n'}
+[1.757811] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/libpioneer_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.758068] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs\n'}
+[1.758235] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg\n'}
+[1.758500] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail\n'}
+[1.758672] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/auv_state__rosidl_typesupport_introspection_c.h\n'}
+[1.758919] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/motion_command__rosidl_typesupport_introspection_c.h\n'}
+[1.759090] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/status__type_support.c\n'}
+[1.759250] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/auv_state__type_support.c\n'}
+[1.759462] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/motion_command__type_support.c\n'}
+[1.759621] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h\n'}
+[1.759775] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.759971] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/libpioneer_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.760136] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/libpioneer_msgs__rosidl_typesupport_c.so\n'}
+[1.760344] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs\n'}
+[1.760573] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg\n'}
+[1.760733] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail\n'}
+[1.760922] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/motion_command__struct.hpp\n'}
+[1.762963] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/status__builder.hpp\n'}
+[1.763191] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/auv_state__traits.hpp\n'}
+[1.763362] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/status__traits.hpp\n'}
+[1.763559] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/auv_state__struct.hpp\n'}
+[1.763724] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/motion_command__traits.hpp\n'}
+[1.763877] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/motion_command__builder.hpp\n'}
+[1.764030] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/auv_state__builder.hpp\n'}
+[1.764178] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/status__struct.hpp\n'}
+[1.764324] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/auv_state.hpp\n'}
+[1.764494] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/status.hpp\n'}
+[1.764644] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/motion_command.hpp\n'}
+[1.764790] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs\n'}
+[1.764978] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg\n'}
+[1.765128] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.765275] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail\n'}
+[1.765421] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/auv_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.765601] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/motion_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.765752] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/dds_fastrtps\n'}
+[1.765898] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.766045] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/libpioneer_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.766188] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs\n'}
+[1.766340] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg\n'}
+[1.766484] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail\n'}
+[1.766624] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/motion_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.766767] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.766913] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/status__type_support.cpp\n'}
+[1.767055] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/auv_state__type_support.cpp\n'}
+[1.767197] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/motion_command__type_support.cpp\n'}
+[1.767344] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/include/pioneer_msgs/pioneer_msgs/msg/detail/auv_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.767488] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/libpioneer_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.767633] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/libpioneer_msgs__rosidl_typesupport_cpp.so\n'}
+[1.767776] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/environment/pythonpath.sh\n'}
+[1.767921] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/environment/pythonpath.dsv\n'}
+[1.768064] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs-0.0.0-py3.8.egg-info\n'}
+[1.768238] (pioneer_msgs) StdoutLine: {'line': b'-- Installing: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs-0.0.0-py3.8.egg-info/PKG-INFO\n'}
+[1.768382] (pioneer_msgs) StdoutLine: {'line': b'-- Installing: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs-0.0.0-py3.8.egg-info/top_level.txt\n'}
+[1.768530] (pioneer_msgs) StdoutLine: {'line': b'-- Installing: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs-0.0.0-py3.8.egg-info/dependency_links.txt\n'}
+[1.768696] (pioneer_msgs) StdoutLine: {'line': b'-- Installing: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs-0.0.0-py3.8.egg-info/SOURCES.txt\n'}
+[1.768872] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs\n'}
+[1.769036] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs/pioneer_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.769184] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs/_pioneer_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.769331] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs/_pioneer_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.769480] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs/_pioneer_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.769625] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs/msg\n'}
+[1.769768] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs/msg/_motion_command.py\n'}
+[1.769911] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs/msg/__init__.py\n'}
+[1.770054] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs/msg/_status.py\n'}
+[1.770212] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs/msg/_motion_command_s.c\n'}
+[1.770355] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs/msg/_auv_state.py\n'}
+[1.770500] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs/msg/_auv_state_s.c\n'}
+[1.770647] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs/msg/_status_s.c\n'}
+[1.770830] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs/libpioneer_msgs__rosidl_generator_py.so\n'}
+[1.770979] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs/__init__.py\n'}
+[1.771125] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs/pioneer_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.771283] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs/pioneer_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.827962] (-) TimerEvent: {}
+[1.829015] (pioneer_msgs) StdoutLine: {'line': b"Listing '/src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs'...\n"}
+[1.829493] (pioneer_msgs) StdoutLine: {'line': b"Listing '/src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs/msg'...\n"}
+[1.838642] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs/pioneer_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.839202] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs/pioneer_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.839705] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages/pioneer_msgs/pioneer_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.840200] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/lib/libpioneer_msgs__rosidl_generator_py.so\n'}
+[1.840534] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/msg/MotionCommand.idl\n'}
+[1.840744] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/msg/Status.idl\n'}
+[1.840963] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/msg/AUVState.idl\n'}
+[1.841194] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/msg/MotionCommand.msg\n'}
+[1.841412] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/msg/Status.msg\n'}
+[1.841609] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/msg/AUVState.msg\n'}
+[1.841802] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/ament_index/resource_index/package_run_dependencies/pioneer_msgs\n'}
+[1.841982] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/ament_index/resource_index/parent_prefix_path/pioneer_msgs\n'}
+[1.842228] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/environment/ament_prefix_path.sh\n'}
+[1.842435] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/environment/ament_prefix_path.dsv\n'}
+[1.842621] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/environment/path.sh\n'}
+[1.842797] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/environment/path.dsv\n'}
+[1.842974] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/local_setup.bash\n'}
+[1.843128] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/local_setup.sh\n'}
+[1.843278] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/local_setup.zsh\n'}
+[1.843443] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/local_setup.dsv\n'}
+[1.843623] (pioneer_msgs) StdoutLine: {'line': b'-- Installing: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/package.dsv\n'}
+[1.843777] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/ament_index/resource_index/packages/pioneer_msgs\n'}
+[1.843947] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/export_pioneer_msgs__rosidl_generator_cExport.cmake\n'}
+[1.844112] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/export_pioneer_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.844262] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/export_pioneer_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.844425] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/export_pioneer_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.844615] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/pioneer_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.844766] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/pioneer_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.845014] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/pioneer_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.845180] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/pioneer_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.845389] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/export_pioneer_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.845640] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/export_pioneer_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.845842] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/export_pioneer_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.846133] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/pioneer_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.846334] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/pioneer_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.846584] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/pioneer_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.846781] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/pioneer_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.847082] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/export_pioneer_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.847281] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/export_pioneer_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.847476] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.847677] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.847868] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.848052] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.848277] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.848452] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.848606] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.848757] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/pioneer_msgsConfig.cmake\n'}
+[1.848954] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/cmake/pioneer_msgsConfig-version.cmake\n'}
+[1.849111] (pioneer_msgs) StdoutLine: {'line': b'-- Up-to-date: /src/ros2_ws/install/pioneer_msgs/share/pioneer_msgs/package.xml\n'}
+[1.852081] (pioneer_msgs) CommandEnded: {'returncode': 0}
+[1.928392] (-) TimerEvent: {}
+[2.029626] (-) TimerEvent: {}
+[2.131879] (-) TimerEvent: {}
+[2.233095] (-) TimerEvent: {}
+[2.333697] (-) TimerEvent: {}
+[2.434851] (-) TimerEvent: {}
+[2.479120] (pioneer_msgs) JobEnded: {'identifier': 'pioneer_msgs', 'rc': 0}
+[2.481552] (pixpubsub) JobStarted: {'identifier': 'pixpubsub'}
+[2.535004] (-) TimerEvent: {}
+[2.636020] (-) TimerEvent: {}
+[2.737149] (-) TimerEvent: {}
+[2.838019] (-) TimerEvent: {}
+[2.938782] (-) TimerEvent: {}
+[3.039519] (-) TimerEvent: {}
+[3.140368] (-) TimerEvent: {}
+[3.241205] (-) TimerEvent: {}
+[3.342034] (-) TimerEvent: {}
+[3.442930] (-) TimerEvent: {}
+[3.543617] (-) TimerEvent: {}
+[3.620184] (imu_publisher) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/imu_publisher', 'build', '--build-base', '/src/ros2_ws/build/imu_publisher/build', 'install', '--record', '/src/ros2_ws/build/imu_publisher/install.log', '--single-version-externally-managed'], 'cwd': '/src/ros2_ws/src/imu_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'PYTHONWARNINGS': 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources', 'HOSTNAME': 'urorinnanoalpha', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/src/ros2_ws/install/pioneer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64::/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib', 'HOME': '/root', 'OLDPWD': '/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/src/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvidia/tao:/usr/local/cuda/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/usr/local/share/middleware_profiles/rtps_udp_profile.xml', 'DISPLAY': ':1', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/src/ros2_ws/install/pixpubsub:/src/ros2_ws/install/pioneer_msgs:/src/ros2_ws/install/imu_publisher:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/src/ros2_ws/build/imu_publisher', 'PYTHONPATH': '/src/ros2_ws/build/imu_publisher/prefix_override:/src/ros2_ws/install/imu_publisher/lib/python3.8/site-packages:/src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages:/src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages:/src/ros2_ws/install/imu_publisher/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/src/ros2_ws/install/pioneer_msgs'}, 'shell': False}
+[3.643798] (-) TimerEvent: {}
+[3.744527] (-) TimerEvent: {}
+[3.845189] (-) TimerEvent: {}
+[3.945890] (-) TimerEvent: {}
+[4.046788] (-) TimerEvent: {}
+[4.147459] (-) TimerEvent: {}
+[4.248106] (-) TimerEvent: {}
+[4.348789] (-) TimerEvent: {}
+[4.449495] (-) TimerEvent: {}
+[4.482534] (imu_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[4.516317] (imu_publisher) StdoutLine: {'line': b'writing ../../build/imu_publisher/imu_publisher.egg-info/PKG-INFO\n'}
+[4.517108] (imu_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/imu_publisher/imu_publisher.egg-info/dependency_links.txt\n'}
+[4.517749] (imu_publisher) StdoutLine: {'line': b'writing entry points to ../../build/imu_publisher/imu_publisher.egg-info/entry_points.txt\n'}
+[4.518173] (imu_publisher) StdoutLine: {'line': b'writing requirements to ../../build/imu_publisher/imu_publisher.egg-info/requires.txt\n'}
+[4.518488] (imu_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/imu_publisher/imu_publisher.egg-info/top_level.txt\n'}
+[4.549640] (-) TimerEvent: {}
+[4.583677] (imu_publisher) StdoutLine: {'line': b"reading manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'\n"}
+[4.585652] (imu_publisher) StdoutLine: {'line': b"writing manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'\n"}
+[4.586030] (imu_publisher) StdoutLine: {'line': b'running build\n'}
+[4.586265] (imu_publisher) StdoutLine: {'line': b'running build_py\n'}
+[4.586896] (imu_publisher) StdoutLine: {'line': b'running install\n'}
+[4.597914] (imu_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[4.630978] (imu_publisher) StdoutLine: {'line': b'running install_data\n'}
+[4.649782] (-) TimerEvent: {}
+[4.662398] (imu_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.719901] (imu_publisher) StdoutLine: {'line': b"removing '/src/ros2_ws/install/imu_publisher/lib/python3.8/site-packages/imu_publisher-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.720747] (imu_publisher) StdoutLine: {'line': b'Copying ../../build/imu_publisher/imu_publisher.egg-info to /src/ros2_ws/install/imu_publisher/lib/python3.8/site-packages/imu_publisher-0.0.0-py3.8.egg-info\n'}
+[4.723162] (imu_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[4.749895] (-) TimerEvent: {}
+[4.850488] (-) TimerEvent: {}
+[4.852186] (imu_publisher) StdoutLine: {'line': b'Installing publisher script to /src/ros2_ws/install/imu_publisher/lib/imu_publisher\n'}
+[4.853725] (imu_publisher) StdoutLine: {'line': b"writing list of installed files to '/src/ros2_ws/build/imu_publisher/install.log'\n"}
+[4.950653] (-) TimerEvent: {}
+[4.970294] (imu_publisher) CommandEnded: {'returncode': 0}
+[5.050787] (-) TimerEvent: {}
+[5.077950] (imu_publisher) JobEnded: {'identifier': 'imu_publisher', 'rc': 0}
+[5.150980] (-) TimerEvent: {}
+[5.222276] (pixpubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/pixpubsub', 'build', '--build-base', '/src/ros2_ws/build/pixpubsub/build', 'install', '--record', '/src/ros2_ws/build/pixpubsub/install.log', '--single-version-externally-managed'], 'cwd': '/src/ros2_ws/src/pixpubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'PYTHONWARNINGS': 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources', 'HOSTNAME': 'urorinnanoalpha', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/src/ros2_ws/install/pioneer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib', 'HOME': '/root', 'OLDPWD': '/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/src/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvidia/tao:/usr/local/cuda/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/usr/local/share/middleware_profiles/rtps_udp_profile.xml', 'DISPLAY': ':1', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/src/ros2_ws/install/pixpubsub:/src/ros2_ws/install/pioneer_msgs:/src/ros2_ws/install/imu_publisher:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/src/ros2_ws/build/pixpubsub', 'PYTHONPATH': '/src/ros2_ws/build/pixpubsub/prefix_override:/src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages:/src/ros2_ws/install/pioneer_msgs/lib/python3.8/site-packages:/src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages:/src/ros2_ws/install/imu_publisher/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/src/ros2_ws/install/pioneer_msgs'}, 'shell': False}
+[5.251154] (-) TimerEvent: {}
+[5.351870] (-) TimerEvent: {}
+[5.452492] (-) TimerEvent: {}
+[5.553143] (-) TimerEvent: {}
+[5.653780] (-) TimerEvent: {}
+[5.754651] (-) TimerEvent: {}
+[5.855317] (-) TimerEvent: {}
+[5.956163] (-) TimerEvent: {}
+[6.056968] (-) TimerEvent: {}
+[6.121276] (pixpubsub) StdoutLine: {'line': b'running egg_info\n'}
+[6.154920] (pixpubsub) StdoutLine: {'line': b'writing ../../build/pixpubsub/pixpubsub.egg-info/PKG-INFO\n'}
+[6.155771] (pixpubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/pixpubsub/pixpubsub.egg-info/dependency_links.txt\n'}
+[6.156474] (pixpubsub) StdoutLine: {'line': b'writing entry points to ../../build/pixpubsub/pixpubsub.egg-info/entry_points.txt\n'}
+[6.157087] (-) TimerEvent: {}
+[6.158197] (pixpubsub) StdoutLine: {'line': b'writing requirements to ../../build/pixpubsub/pixpubsub.egg-info/requires.txt\n'}
+[6.158636] (pixpubsub) StdoutLine: {'line': b'writing top-level names to ../../build/pixpubsub/pixpubsub.egg-info/top_level.txt\n'}
+[6.224925] (pixpubsub) StdoutLine: {'line': b"reading manifest file '../../build/pixpubsub/pixpubsub.egg-info/SOURCES.txt'\n"}
+[6.227185] (pixpubsub) StdoutLine: {'line': b"writing manifest file '../../build/pixpubsub/pixpubsub.egg-info/SOURCES.txt'\n"}
+[6.227604] (pixpubsub) StdoutLine: {'line': b'running build\n'}
+[6.227848] (pixpubsub) StdoutLine: {'line': b'running build_py\n'}
+[6.228423] (pixpubsub) StdoutLine: {'line': b'copying pixpubsub/pressure_sensor_subscriber.py -> /src/ros2_ws/build/pixpubsub/build/lib/pixpubsub\n'}
+[6.229981] (pixpubsub) StdoutLine: {'line': b'running install\n'}
+[6.240682] (pixpubsub) StdoutLine: {'line': b'running install_lib\n'}
+[6.257174] (-) TimerEvent: {}
+[6.273290] (pixpubsub) StdoutLine: {'line': b'copying /src/ros2_ws/build/pixpubsub/build/lib/pixpubsub/pressure_sensor_subscriber.py -> /src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages/pixpubsub\n'}
+[6.274735] (pixpubsub) StdoutLine: {'line': b'byte-compiling /src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages/pixpubsub/pressure_sensor_subscriber.py to pressure_sensor_subscriber.cpython-38.pyc\n'}
+[6.276086] (pixpubsub) StdoutLine: {'line': b'running install_data\n'}
+[6.308042] (pixpubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.357357] (-) TimerEvent: {}
+[6.368652] (pixpubsub) StdoutLine: {'line': b"removing '/src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages/pixpubsub-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.369615] (pixpubsub) StdoutLine: {'line': b'Copying ../../build/pixpubsub/pixpubsub.egg-info to /src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages/pixpubsub-0.0.0-py3.8.egg-info\n'}
+[6.371905] (pixpubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[6.457551] (-) TimerEvent: {}
+[6.504034] (pixpubsub) StdoutLine: {'line': b'Installing Depth_node script to /src/ros2_ws/install/pixpubsub/lib/pixpubsub\n'}
+[6.504852] (pixpubsub) StdoutLine: {'line': b'Installing pixhawk_worker script to /src/ros2_ws/install/pixpubsub/lib/pixpubsub\n'}
+[6.505302] (pixpubsub) StdoutLine: {'line': b'Installing testing_node script to /src/ros2_ws/install/pixpubsub/lib/pixpubsub\n'}
+[6.506231] (pixpubsub) StdoutLine: {'line': b"writing list of installed files to '/src/ros2_ws/build/pixpubsub/install.log'\n"}
+[6.557742] (-) TimerEvent: {}
+[6.625167] (pixpubsub) CommandEnded: {'returncode': 0}
+[6.657857] (-) TimerEvent: {}
+[6.730008] (pixpubsub) JobEnded: {'identifier': 'pixpubsub', 'rc': 0}
+[6.732562] (-) EventReactorShutdown: {}
