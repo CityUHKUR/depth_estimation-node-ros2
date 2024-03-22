@@ -1,0 +1,40 @@
+[4.019s] Invoking command in '/src/ros2_ws/src/depthsub': PYTHONPATH=/src/ros2_ws/build/depthsub/prefix_override:/src/ros2_ws/install/depthsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/depthsub build --build-base /src/ros2_ws/build/depthsub/build install --record /src/ros2_ws/build/depthsub/install.log --single-version-externally-managed
+[5.128s] running egg_info
+[5.129s] creating ../../build/depthsub/depthsub.egg-info
+[5.163s] writing ../../build/depthsub/depthsub.egg-info/PKG-INFO
+[5.164s] writing dependency_links to ../../build/depthsub/depthsub.egg-info/dependency_links.txt
+[5.164s] writing entry points to ../../build/depthsub/depthsub.egg-info/entry_points.txt
+[5.165s] writing requirements to ../../build/depthsub/depthsub.egg-info/requires.txt
+[5.165s] writing top-level names to ../../build/depthsub/depthsub.egg-info/top_level.txt
+[5.166s] writing manifest file '../../build/depthsub/depthsub.egg-info/SOURCES.txt'
+[5.237s] reading manifest file '../../build/depthsub/depthsub.egg-info/SOURCES.txt'
+[5.238s] adding license file 'LICENSE'
+[5.239s] writing manifest file '../../build/depthsub/depthsub.egg-info/SOURCES.txt'
+[5.239s] running build
+[5.239s] running build_py
+[5.240s] creating /src/ros2_ws/build/depthsub/build
+[5.240s] creating /src/ros2_ws/build/depthsub/build/lib
+[5.240s] creating /src/ros2_ws/build/depthsub/build/lib/depthsub
+[5.241s] copying depthsub/pressure_sensor_subscriber.py -> /src/ros2_ws/build/depthsub/build/lib/depthsub
+[5.241s] copying depthsub/__init__.py -> /src/ros2_ws/build/depthsub/build/lib/depthsub
+[5.241s] running install
+[5.254s] running install_lib
+[5.290s] creating /src/ros2_ws/install/depthsub/lib/python3.8/site-packages/depthsub
+[5.291s] copying /src/ros2_ws/build/depthsub/build/lib/depthsub/pressure_sensor_subscriber.py -> /src/ros2_ws/install/depthsub/lib/python3.8/site-packages/depthsub
+[5.291s] copying /src/ros2_ws/build/depthsub/build/lib/depthsub/__init__.py -> /src/ros2_ws/install/depthsub/lib/python3.8/site-packages/depthsub
+[5.292s] byte-compiling /src/ros2_ws/install/depthsub/lib/python3.8/site-packages/depthsub/pressure_sensor_subscriber.py to pressure_sensor_subscriber.cpython-38.pyc
+[5.294s] byte-compiling /src/ros2_ws/install/depthsub/lib/python3.8/site-packages/depthsub/__init__.py to __init__.cpython-38.pyc
+[5.294s] running install_data
+[5.330s] creating /src/ros2_ws/install/depthsub/share
+[5.331s] creating /src/ros2_ws/install/depthsub/share/ament_index
+[5.331s] creating /src/ros2_ws/install/depthsub/share/ament_index/resource_index
+[5.331s] creating /src/ros2_ws/install/depthsub/share/ament_index/resource_index/packages
+[5.331s] copying resource/depthsub -> /src/ros2_ws/install/depthsub/share/ament_index/resource_index/packages
+[5.331s] creating /src/ros2_ws/install/depthsub/share/depthsub
+[5.331s] copying package.xml -> /src/ros2_ws/install/depthsub/share/depthsub
+[5.332s] running install_egg_info
+[5.371s] Copying ../../build/depthsub/depthsub.egg-info to /src/ros2_ws/install/depthsub/lib/python3.8/site-packages/depthsub-0.0.0-py3.8.egg-info
+[5.373s] running install_scripts
+[5.566s] Installing Depth_node script to /src/ros2_ws/install/depthsub/lib/depthsub
+[5.567s] writing list of installed files to '/src/ros2_ws/build/depthsub/install.log'
+[5.791s] Invoked command in '/src/ros2_ws/src/depthsub' returned '0': PYTHONPATH=/src/ros2_ws/build/depthsub/prefix_override:/src/ros2_ws/install/depthsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/depthsub build --build-base /src/ros2_ws/build/depthsub/build install --record /src/ros2_ws/build/depthsub/install.log --single-version-externally-managed

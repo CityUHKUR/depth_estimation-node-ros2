@@ -1,0 +1,2 @@
+[console_scripts]
+Depth_node = depthsub.pressure_sensor_subscriber:main

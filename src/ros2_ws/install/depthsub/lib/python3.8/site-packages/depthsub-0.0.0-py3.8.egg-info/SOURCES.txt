@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/depthsub/depthsub.egg-info/PKG-INFO
+../../build/depthsub/depthsub.egg-info/SOURCES.txt
+../../build/depthsub/depthsub.egg-info/dependency_links.txt
+../../build/depthsub/depthsub.egg-info/entry_points.txt
+../../build/depthsub/depthsub.egg-info/requires.txt
+../../build/depthsub/depthsub.egg-info/top_level.txt
+../../build/depthsub/depthsub.egg-info/zip-safe
+depthsub/__init__.py
+depthsub/pressure_sensor_subscriber.py
+resource/depthsub
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

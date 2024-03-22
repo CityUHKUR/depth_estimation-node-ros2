@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/depthsub/depthsub.egg-info
+writing ../../build/depthsub/depthsub.egg-info/PKG-INFO
+writing dependency_links to ../../build/depthsub/depthsub.egg-info/dependency_links.txt
+writing entry points to ../../build/depthsub/depthsub.egg-info/entry_points.txt
+writing requirements to ../../build/depthsub/depthsub.egg-info/requires.txt
+writing top-level names to ../../build/depthsub/depthsub.egg-info/top_level.txt
+writing manifest file '../../build/depthsub/depthsub.egg-info/SOURCES.txt'
+reading manifest file '../../build/depthsub/depthsub.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/depthsub/depthsub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /src/ros2_ws/build/depthsub/build
+creating /src/ros2_ws/build/depthsub/build/lib
+creating /src/ros2_ws/build/depthsub/build/lib/depthsub
+copying depthsub/pressure_sensor_subscriber.py -> /src/ros2_ws/build/depthsub/build/lib/depthsub
+copying depthsub/__init__.py -> /src/ros2_ws/build/depthsub/build/lib/depthsub
+running install
+running install_lib
+creating /src/ros2_ws/install/depthsub/lib/python3.8/site-packages/depthsub
+copying /src/ros2_ws/build/depthsub/build/lib/depthsub/pressure_sensor_subscriber.py -> /src/ros2_ws/install/depthsub/lib/python3.8/site-packages/depthsub
+copying /src/ros2_ws/build/depthsub/build/lib/depthsub/__init__.py -> /src/ros2_ws/install/depthsub/lib/python3.8/site-packages/depthsub
+byte-compiling /src/ros2_ws/install/depthsub/lib/python3.8/site-packages/depthsub/pressure_sensor_subscriber.py to pressure_sensor_subscriber.cpython-38.pyc
+byte-compiling /src/ros2_ws/install/depthsub/lib/python3.8/site-packages/depthsub/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /src/ros2_ws/install/depthsub/share
+creating /src/ros2_ws/install/depthsub/share/ament_index
+creating /src/ros2_ws/install/depthsub/share/ament_index/resource_index
+creating /src/ros2_ws/install/depthsub/share/ament_index/resource_index/packages
+copying resource/depthsub -> /src/ros2_ws/install/depthsub/share/ament_index/resource_index/packages
+creating /src/ros2_ws/install/depthsub/share/depthsub
+copying package.xml -> /src/ros2_ws/install/depthsub/share/depthsub
+running install_egg_info
+Copying ../../build/depthsub/depthsub.egg-info to /src/ros2_ws/install/depthsub/lib/python3.8/site-packages/depthsub-0.0.0-py3.8.egg-info
+running install_scripts
+Installing Depth_node script to /src/ros2_ws/install/depthsub/lib/depthsub
+writing list of installed files to '/src/ros2_ws/build/depthsub/install.log'

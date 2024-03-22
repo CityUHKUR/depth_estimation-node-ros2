@@ -1,0 +1,23 @@
+[5.606s] Invoking command in '/src/ros2_ws/src/pixpubsub': PYTHONPATH=/src/ros2_ws/build/pixpubsub/prefix_override:/src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pixpubsub build --build-base /src/ros2_ws/build/pixpubsub/build install --record /src/ros2_ws/build/pixpubsub/install.log --single-version-externally-managed
+[7.696s] running egg_info
+[7.770s] writing ../../build/pixpubsub/pixpubsub.egg-info/PKG-INFO
+[7.771s] writing dependency_links to ../../build/pixpubsub/pixpubsub.egg-info/dependency_links.txt
+[7.771s] writing entry points to ../../build/pixpubsub/pixpubsub.egg-info/entry_points.txt
+[7.771s] writing requirements to ../../build/pixpubsub/pixpubsub.egg-info/requires.txt
+[7.771s] writing top-level names to ../../build/pixpubsub/pixpubsub.egg-info/top_level.txt
+[7.910s] reading manifest file '../../build/pixpubsub/pixpubsub.egg-info/SOURCES.txt'
+[7.916s] writing manifest file '../../build/pixpubsub/pixpubsub.egg-info/SOURCES.txt'
+[7.917s] running build
+[7.917s] running build_py
+[7.918s] running install
+[7.937s] running install_lib
+[7.990s] running install_data
+[8.054s] running install_egg_info
+[8.210s] removing '/src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages/pixpubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[8.213s] Copying ../../build/pixpubsub/pixpubsub.egg-info to /src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages/pixpubsub-0.0.0-py3.8.egg-info
+[8.215s] running install_scripts
+[8.516s] Installing Depth_node script to /src/ros2_ws/install/pixpubsub/lib/pixpubsub
+[8.517s] Installing pixhawk_worker script to /src/ros2_ws/install/pixpubsub/lib/pixpubsub
+[8.518s] Installing testing_node script to /src/ros2_ws/install/pixpubsub/lib/pixpubsub
+[8.522s] writing list of installed files to '/src/ros2_ws/build/pixpubsub/install.log'
+[8.921s] Invoked command in '/src/ros2_ws/src/pixpubsub' returned '0': PYTHONPATH=/src/ros2_ws/build/pixpubsub/prefix_override:/src/ros2_ws/install/pixpubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pixpubsub build --build-base /src/ros2_ws/build/pixpubsub/build install --record /src/ros2_ws/build/pixpubsub/install.log --single-version-externally-managed
